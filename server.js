@@ -1,7 +1,7 @@
 // server.js
 /* This code is setting up the server for the application using the Socket.IO
 library. */
-
+require('dotenv/config')
 const { Server } = require('socket.io') 
 const express = require('express') 
 const http = require('http') 
